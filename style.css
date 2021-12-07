@@ -1,0 +1,130 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: gainsboro;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 520px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.2);
+}
+
+.white-color {
+    color: rgb(255, 255, 255);
+}
+
+.gray-color {
+    color: rgb(126, 124, 124);
+}
+
+.price-color {
+    font-size: 2.5em;
+}
+
+.price {
+    display: inline-flex;
+}
+
+.price p {
+    margin-left: 1rem;
+    color: #b1eeec;
+}
+
+#top-component {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    align-content: center;
+}
+
+#top-component h2 {
+    color: #2bb4b1;
+    margin: 1.5rem 2rem 0 3rem;
+    padding-top: 1.5rem;
+}
+
+#top-component div h3 {
+    color: #b8ca5e;
+}
+
+#top-component div,
+#left-bottom-component div,
+#right-bottom-component > div {
+    margin: 0.4rem 2rem 1rem 3rem;
+    line-height: 1.5rem;
+}
+
+#top-component div {
+    margin-top: 1.2rem;
+    height: 100%;
+}
+
+.bottom-component {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    height: 50%;
+}
+
+.bottom-component h3 {
+    margin: 2rem 2rem 0 3rem;
+}
+
+#left-bottom-component {
+    width: 50%;
+    background-color: #2bb4b1;
+    border-radius: 0 0 0 10px;
+}
+
+#left-bottom-component > div > p {
+    margin-top: 1rem;
+}
+
+#right-bottom-component {
+    width: 50%;
+    background-color: #51cfcd;
+    border-radius: 0 0 10px 0;
+}
+
+button {
+    color: white;
+    background-color: #bedf32;
+    margin-top: 0.8rem;
+    width: 95%;
+    height: 45px;
+    border-radius: 6px;
+    border: 0;
+    font-size: 1.3rem;
+    vertical-align: top;
+    margin: 4px 10px 4px 0;
+    box-shadow: 0 7px 15px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.1);
+    margin: 6px 15px 2px 0;
+    outline: none;
+}
